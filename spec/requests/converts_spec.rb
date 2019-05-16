@@ -14,7 +14,7 @@ RSpec.describe "Converts", type: :request do
     end
 
     it 'returns http success' do
-      get '/convert_currency', params: {
+      get '/convert', params: {
         source_currency: "USD",
         desired_currency: "BRL",
         amount: @amount
