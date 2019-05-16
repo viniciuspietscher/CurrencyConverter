@@ -1,24 +1,45 @@
-# README
+# Currency Converter
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A currency converter built with Rails using the https://currencydatafeed.com api.
+The goal of this project is to learn the usage of an external api and the Rails credentials feature.
 
-Things you may want to cover:
+## Getting Started
 
-* Ruby version
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-* System dependencies
+### Prerequisites
 
-* Configuration
+```
+docker
+docker-compose
+```
+Installation instructions for docker and compose can be found [here](https://docs.docker.com/install).
 
-* Database creation
+### Installing and getting started
 
-* Database initialization
+To get the app up and running in your machine execute the following commands
 
-* How to run the test suite
+```shell
+git clone https://github.com/viniciuspietscher/CurrencyConverter.git
+cd CurrencyConverter
+docker-compose build
+docker-compose run --rm app rails db:create db:migrate
+docker-compose up
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+Access the application at
+http://localhost:3000
 
-* Deployment instructions
+#### Heroku Access
+(Add address later)
 
-* ...
+## Project Stack
+
+* [Ruby on Rails v5.2](http://rubyonrails.org)
+* [Docker](https://docker.com)
+* [PostgreSQL](https://www.postgresql.org/)
+
+
+## Acknowledgments
+
+* [OneBitCode](https://onebitcode.com) - Full Stack Web Development Bootcamp
