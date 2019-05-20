@@ -3,6 +3,8 @@
 A currency converter built with Rails using the https://currencydatafeed.com api.
 The goal of this project is to learn the usage of an external api.
 
+![](https://i.imgur.com/ORq6VyN.png)
+
 
 ## Getting Started
 
@@ -21,15 +23,26 @@ Installation instructions for docker and compose can be found [here](https://doc
 
 To get the app up and running in your machine execute the following commands
 
+1. clone from git and build the container
 ```shell
 git clone https://github.com/viniciuspietscher/CurrencyConverter.git
 cd CurrencyConverter
 docker-compose build
 docker-compose run --rm app rails db:create db:migrate
+```
+
+2. add your CurrencyDataFeed api key
+```shell
+docker-compose run --rm app bash
+EDITOR=vim bundle exec rails credentials:edit
+```
+
+3. run the application
+```shell
 docker-compose up
 ```
 
-Access the application at
+4. Access the application at
 http://localhost:3000
 
 ## Project Stack
@@ -37,11 +50,8 @@ http://localhost:3000
 * [Ruby on Rails](http://rubyonrails.org)
 * [Docker](https://docker.com)
 * [RSpec](https://rspec.info/)
-* [PostgreSQL](https://www.postgresql.org/)
 * [Bootstrap](https://getbootstrap.com/)
-* [Codeship](https://codeship.com/)
-* [Heroku](https://heroku.com/)
-
+* [CurrencyDataFeed](https://currencydatafeed.com)
 
 ## Acknowledgments
 
