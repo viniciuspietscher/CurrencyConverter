@@ -3,10 +3,11 @@
 A currency converter built with Rails using the https://currencydatafeed.com api.
 The goal of this project is to learn the usage of an external api.
 
-![](https://i.imgur.com/ORq6VyN.png)
-
 To access the app go to:
 https://currency-converter-vini.herokuapp.com/
+
+![](https://i.imgur.com/ORq6VyN.png)
+
 
 
 ## Getting Started
