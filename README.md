@@ -5,6 +5,8 @@ The goal of this project is to learn the usage of an external api.
 
 ![](https://i.imgur.com/ORq6VyN.png)
 
+To access the app go to:
+https://currency-converter-vini.herokuapp.com/
 
 
 ## Getting Started
@@ -53,6 +55,8 @@ http://localhost:3000
 * [RSpec](https://rspec.info/)
 * [Bootstrap](https://getbootstrap.com/)
 * [CurrencyDataFeed](https://currencydatafeed.com)
+* [Codeship](https://codeship.com)
+* [Heroku](https://heroku.com)
 
 ## Acknowledgments
 
