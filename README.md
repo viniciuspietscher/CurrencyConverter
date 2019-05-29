@@ -6,6 +6,7 @@ The goal of this project is to learn the usage of an external api.
 ![](https://i.imgur.com/ORq6VyN.png)
 
 
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine.

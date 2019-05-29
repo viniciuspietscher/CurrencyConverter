@@ -7,7 +7,7 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.lis
  
 # install dependencies
 RUN apt-get update && apt-get install -qq -y --no-install-recommends \
-nodejs yarn build-essential libpq-dev imagemagick git-all nano
+nodejs yarn build-essential libpq-dev imagemagick git-all vim
  
  
 # set path
